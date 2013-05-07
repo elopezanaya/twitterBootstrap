@@ -380,6 +380,17 @@
     margin-left: 8.547008547008547%;
     *margin-left: 8.440625568285142%;
   }
+  
+  
+  h1.new-single-title {
+background: #F6E128;
+color: #c525de;
+display: inline;
+line-height: 64px;
+padding: 0 5px;
+font-size: 48px;
+}
+  
   input,
   textarea,
   .uneditable-input {
