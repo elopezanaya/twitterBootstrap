@@ -173,3 +173,11 @@
 {"ts":1367936756203,"patch":[[{"diffs":[[0,"l=\"stylesheet\">\n"],[1,"    "],[0,"    <link href=\""]],"start1":529,"start2":529,"length1":32,"length2":36}]],"length":3180,"saved":false}
 {"ts":1367936756936,"patch":[[{"diffs":[[0,"tylesheet\">\n"],[-1,"    "],[0,"    <link hr"]],"start1":533,"start2":533,"length1":28,"length2":24}]],"length":3176,"saved":false}
 {"ts":1367936769077,"patch":[[{"diffs":[[0,"ef=\""],[-1,"assets/"],[0,"css/"]],"start1":438,"start2":438,"length1":15,"length2":8}]],"length":3169,"saved":false}
+{"ts":1367937100331,"patch":[[{"diffs":[[0,"     <p>"],[1," n"],[0,"\n       "]],"start1":1194,"start2":1194,"length1":16,"length2":18}]],"length":3171,"saved":false}
+{"ts":1367937101495,"patch":[[{"diffs":[[0,"   <p> n"],[1,"ow w"],[0,"\n       "]],"start1":1196,"start2":1196,"length1":16,"length2":20}]],"length":3175,"saved":false}
+{"ts":1367937104151,"patch":[[{"diffs":[[0,"p> now w"],[1,"ith "],[0,"\n       "]],"start1":1200,"start2":1200,"length1":16,"length2":20}]],"length":3179,"saved":false}
+{"ts":1367937108588,"patch":[[{"diffs":[[0,"ow with "],[1,"responsive de"],[0,"\n       "]],"start1":1204,"start2":1204,"length1":16,"length2":29}]],"length":3192,"saved":false}
+{"ts":1367937109324,"patch":[[{"diffs":[[0,"nsive de"],[1,"s"],[0,"\n       "]],"start1":1217,"start2":1217,"length1":16,"length2":17}]],"length":3193,"saved":false}
+{"ts":1367937110646,"patch":[[{"diffs":[[0,"sive des"],[1,"ign"],[0,"\n       "]],"start1":1218,"start2":1218,"length1":16,"length2":19}]],"length":3196,"saved":false}
+{"ts":1367937113960,"patch":[[{"diffs":[[0,"e design"],[1," "],[0,"\n       "]],"start1":1221,"start2":1221,"length1":16,"length2":17}]],"length":3197,"saved":false}
+{"ts":1367937115441,"patch":[[{"diffs":[[0," design "],[1,"0.1"],[0,"\n       "]],"start1":1222,"start2":1222,"length1":16,"length2":19}]],"length":3200,"saved":false}
