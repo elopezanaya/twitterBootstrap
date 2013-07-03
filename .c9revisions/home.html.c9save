@@ -47,3 +47,10 @@
 {"ts":1372862590777,"patch":[[{"diffs":[[0,"ght:100%"],[1,";"],[0,">\n      "]],"start1":772,"start2":772,"length1":16,"length2":17}]],"length":3422,"saved":false}
 {"ts":1372862719182,"patch":[[{"diffs":[[0,"d.jpg); "],[1,"background-repeat:no-repeat;"],[0,"width:10"]],"start1":750,"start2":750,"length1":16,"length2":44}]],"length":3450,"saved":false}
 {"ts":1372862935439,"patch":[[{"diffs":[[0,"<div"],[-1," class=\"hero-unit\""],[0," sty"]],"start1":687,"start2":687,"length1":26,"length2":8}]],"length":3432,"saved":false}
+{"ts":1372863566963,"patch":[[{"diffs":[[0,"edia=\"screen"],[1," and (min-width: 40.5em)"],[0,"\">\n    \n  </"]],"start1":524,"start2":524,"length1":24,"length2":48}]],"length":3456,"saved":false}
+{"ts":1372864053082,"patch":[[{"diffs":[[0,"le ="],[-1,"'background-image:url(../img/crowd.jpg); background-repeat:no-repeat;width:100%;height:100%;"],[0,">\n  "]],"start1":719,"start2":719,"length1":100,"length2":8}]],"length":3364,"saved":false}
+{"ts":1372864055829,"patch":[[{"diffs":[[0,"div "],[-1,"style ="],[0,">\n  "]],"start1":712,"start2":712,"length1":15,"length2":8}]],"length":3357,"saved":false}
+{"ts":1372864122134,"patch":[[{"diffs":[[0,"   <div "],[1,"cla"],[0,">\n      "]],"start1":708,"start2":708,"length1":16,"length2":19}]],"length":3360,"saved":false}
+{"ts":1372864123012,"patch":[[{"diffs":[[0,"<div cla"],[1,"ss"],[0,">\n      "]],"start1":711,"start2":711,"length1":16,"length2":18}]],"length":3362,"saved":false}
+{"ts":1372864124854,"patch":[[{"diffs":[[0,"iv class"],[1,"=\""],[0,">\n      "]],"start1":713,"start2":713,"length1":16,"length2":18}]],"length":3364,"saved":false}
+{"ts":1372864125656,"patch":[[{"diffs":[[0," class=\""],[1,"iamcoder\""],[0,">\n      "]],"start1":715,"start2":715,"length1":16,"length2":25}]],"length":3373,"saved":false}
