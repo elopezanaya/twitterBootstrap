@@ -14,7 +14,7 @@
     background-repeat:no-repeat;
     width:100%;
  }
- @media screen and (min-width: 40.5em) {
+ @media only screen and (min-width : 321px) {
 .iamcoder {
     width: 50%;
     float: left;
@@ -24,7 +24,7 @@
     height:100%;
   }
 }
-@media screen and (min-width: 28.75em) {
+@media only screen and (max-width : 320px)  {
   .iamcoder {
     background-image:url('../img/websterhall.jpg'); 
     background-repeat:no-repeat;

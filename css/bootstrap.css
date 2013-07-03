@@ -169,32 +169,31 @@ textarea {
   vertical-align: top;
 }
 img { max-width: 100%; }
-.iamcoder{
-     
-  
-     
-    float: left;
+ .iamcoder{
     background-image:url('../img/crowd.jpg'); 
+    float: left;
     background-repeat:no-repeat;
     width:100%;
  }
-@media screen and (min-width: 40.5em) {
+ @media only screen and (min-width : 321px) {
 .iamcoder {
     width: 50%;
     float: left;
     background-image:url('../img/bike.jpg'); 
     background-repeat:no-repeat;
     width:100%;
-   
+    height:100%;
   }
 }
-@media screen and (min-width: 28.75em) {
+@media only screen and (max-width : 320px)  {
   .iamcoder {
-    background-image:url('../img/bird.jpg'); 
+    background-image:url('../img/websterhall.jpg'); 
     background-repeat:no-repeat;
     width:60%;
+    
   }
 }
+
 
 @media print {
   * {
