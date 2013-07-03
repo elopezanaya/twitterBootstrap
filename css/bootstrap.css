@@ -173,7 +173,7 @@ img { max-width: 100%; }
     background-image:url('../img/crowd.jpg'); 
     float: left;
     background-repeat:no-repeat;
-    width:100%;
+    background-size: 100% 100%;
  }
  
 /* Large desktop */
