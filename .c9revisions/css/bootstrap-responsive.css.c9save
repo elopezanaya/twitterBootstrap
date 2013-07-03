@@ -21,3 +21,5 @@
 {"ts":1372867851440,"patch":[[{"diffs":[[0,"100%; }\n"],[1," .iamcoder{\n     \n     background-image:url('../img/crowd.jpg'); \n     \n    float: left;\n    background-image:url('../img/crowd.jpg'); \n    background-repeat:no-repeat;\n    width:100%;\n }\n"],[0,"@media s"]],"start1":1583,"start2":1583,"length1":16,"length2":204}]],"length":22800,"saved":false}
 {"ts":1372867860115,"patch":[[{"diffs":[[0,"age:url('../img/"],[-1,"crowd"],[0,".jpg'); \n    bac"]],"start1":1870,"start2":1870,"length1":37,"length2":32}]],"length":22795,"saved":false}
 {"ts":1372867861381,"patch":[[{"diffs":[[0,"'../img/"],[1,"bike"],[0,".jpg'); "]],"start1":1878,"start2":1878,"length1":16,"length2":20}]],"length":22799,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1372873653043,"patch":[[{"diffs":[[0,"/img"],[-1,"/bike"],[0,".jpg"]],"start1":1881,"start2":1881,"length1":13,"length2":8}]],"length":22794,"saved":false}
+{"ts":1372873654655,"patch":[[{"diffs":[[0,"('../img"],[1,"/bike"],[0,".jpg'); "]],"start1":1877,"start2":1877,"length1":16,"length2":21}]],"length":22799,"saved":false}
