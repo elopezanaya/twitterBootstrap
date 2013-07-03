@@ -10,7 +10,7 @@
 .iamcoder {
     width: 50%;
     float: left;
-    background-image:url(../img/crowd.jpg); 
+    background-image:url('../img/crowd.jpg'); 
     background-repeat:no-repeat;
     width:100%;
     height:100%;
@@ -18,7 +18,7 @@
 }
 @media screen and (min-width: 28.75em) {
   .iamcoder {
-    background-image:url(../img/bird.jpg); 
+    background-image:url('../img/bird.jpg'); 
     background-repeat:no-repeat;
     width:100%;
     height:100%;
@@ -26,7 +26,7 @@
 }
 @media screen and min-width: 40.5em) {
   .iamcoder {
-      background-image:url(../img/bike.jpg); 
+      background-image:url('../img/bike.jpg'); 
     background-repeat:no-repeat;
     width:100%;
     height:100%;
