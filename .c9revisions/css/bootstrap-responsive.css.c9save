@@ -7,3 +7,4 @@
 {"ts":1372864562543,"patch":[[{"diffs":[[0,"d-image:url("],[1,"'"],[0,"../img/bird."]],"start1":1836,"start2":1836,"length1":24,"length2":25}]],"length":22798,"saved":false}
 {"ts":1372864564438,"patch":[[{"diffs":[[0,"age:url("],[1,"'"],[0,"../img/c"]],"start1":1668,"start2":1668,"length1":16,"length2":17}]],"length":22799,"saved":false}
 {"ts":1372864566477,"patch":[[{"diffs":[[0,"rowd.jpg"],[1,"'"],[0,"); \n    "]],"start1":1685,"start2":1685,"length1":16,"length2":17}]],"length":22800,"saved":false}
+{"ts":1372865303151,"patch":[[{"diffs":[[0,"  width:"],[-1,"100%;\n    height:10"],[1,"6"],[0,"0%;\n  }\n"]],"start1":1906,"start2":1906,"length1":35,"length2":17}]],"length":22782,"saved":false}

@@ -20,8 +20,8 @@
   .iamcoder {
     background-image:url('../img/bird.jpg'); 
     background-repeat:no-repeat;
-    width:100%;
-    height:100%;
+    width:60%;
+    
   }
 }
 @media screen and min-width: 40.5em) {

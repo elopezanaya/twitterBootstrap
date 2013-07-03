@@ -44,3 +44,6 @@
 {"ts":1372864652470,"patch":[[{"diffs":[[0,"bike.jpg"],[1,";"],[0,"); \n    "]],"start1":2443,"start2":2443,"length1":16,"length2":17}]],"length":106503,"saved":false}
 {"ts":1372864653901,"patch":[[{"diffs":[[0,"bike.jpg"],[-1,";"],[0,"); \n    "]],"start1":2443,"start2":2443,"length1":17,"length2":16}]],"length":106502,"saved":false}
 {"ts":1372864654665,"patch":[[{"diffs":[[0,"bike.jpg"],[1,"'"],[0,"); \n    "]],"start1":2443,"start2":2443,"length1":16,"length2":17}]],"length":106503,"saved":false}
+{"ts":1372865263045,"patch":[[{"diffs":[[0,"h:100%;\n    "],[-1,"height:100%;"],[0,"\n  }\n}\n@medi"]],"start1":2324,"start2":2324,"length1":36,"length2":24}]],"length":106491,"saved":false}
+{"ts":1372865267293,"patch":[[{"diffs":[[0,";\n    width:"],[-1,"100"],[0,"%;\n    \n  }\n"]],"start1":2314,"start2":2314,"length1":27,"length2":24}]],"length":106488,"saved":false}
+{"ts":1372865268300,"patch":[[{"diffs":[[0,"  width:"],[1,"60"],[0,"%;\n    \n"]],"start1":2318,"start2":2318,"length1":16,"length2":18}]],"length":106490,"saved":false}

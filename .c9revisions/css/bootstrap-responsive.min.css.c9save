@@ -6,3 +6,4 @@
 {"ts":1372864601697,"patch":[[{"diffs":[[0,"round-image:url("],[1,"'"],[0,"../img/bird.jpg'"]],"start1":1302,"start2":1302,"length1":32,"length2":33}]],"length":17396,"saved":false}
 {"ts":1372864606392,"patch":[[{"diffs":[[0,"age:url("],[1,"'"],[0,"../img/b"]],"start1":1483,"start2":1483,"length1":16,"length2":17}]],"length":17397,"saved":false}
 {"ts":1372864608115,"patch":[[{"diffs":[[0,"bike.jpg"],[1,"'"],[0,"); \n    "]],"start1":1499,"start2":1499,"length1":16,"length2":17}]],"length":17398,"saved":false}
+{"ts":1372865297399,"patch":[[{"diffs":[[0,"\n   "],[-1," "],[0,"width:"],[-1,"100%;\n    height:10"],[1,"6"],[0,"0%;\n"]],"start1":1371,"start2":1371,"length1":34,"length2":15}]],"length":17379,"saved":false}

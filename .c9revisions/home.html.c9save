@@ -54,3 +54,4 @@
 {"ts":1372864123012,"patch":[[{"diffs":[[0,"<div cla"],[1,"ss"],[0,">\n      "]],"start1":711,"start2":711,"length1":16,"length2":18}]],"length":3362,"saved":false}
 {"ts":1372864124854,"patch":[[{"diffs":[[0,"iv class"],[1,"=\""],[0,">\n      "]],"start1":713,"start2":713,"length1":16,"length2":18}]],"length":3364,"saved":false}
 {"ts":1372864125656,"patch":[[{"diffs":[[0," class=\""],[1,"iamcoder\""],[0,">\n      "]],"start1":715,"start2":715,"length1":16,"length2":25}]],"length":3373,"saved":false}
+{"ts":1372864940035,"patch":[[{"diffs":[[0,"-social\""],[-1," '"],[0,">\n  <div"]],"start1":1451,"start2":1451,"length1":18,"length2":16}]],"length":3371,"saved":false}
