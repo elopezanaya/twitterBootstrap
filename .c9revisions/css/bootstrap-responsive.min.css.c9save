@@ -7,3 +7,6 @@
 {"ts":1372864606392,"patch":[[{"diffs":[[0,"age:url("],[1,"'"],[0,"../img/b"]],"start1":1483,"start2":1483,"length1":16,"length2":17}]],"length":17397,"saved":false}
 {"ts":1372864608115,"patch":[[{"diffs":[[0,"bike.jpg"],[1,"'"],[0,"); \n    "]],"start1":1499,"start2":1499,"length1":16,"length2":17}]],"length":17398,"saved":false}
 {"ts":1372865297399,"patch":[[{"diffs":[[0,"\n   "],[-1," "],[0,"width:"],[-1,"100%;\n    height:10"],[1,"6"],[0,"0%;\n"]],"start1":1371,"start2":1371,"length1":34,"length2":15}]],"length":17379,"saved":false}
+{"ts":1372865602587,"patch":[[{"diffs":[[0,"e!important}"],[1,"}img { max-width: 100%; "],[0,"}@media scre"]],"start1":1021,"start2":1021,"length1":24,"length2":48}]],"length":17403,"saved":false}
+{"ts":1372866106582,"patch":[[{"diffs":[[0,"}\n}\n"],[-1,"@media screen and min-width: 40.5em) {\n  .iamcoder {\n      background-image:url('../img/bike.jpg'); \n    background-repeat:no-repeat;\n    width:100%;\n    height:100%;\n  }"],[0,"\n}@m"]],"start1":1412,"start2":1412,"length1":178,"length2":8}]],"length":17233,"saved":false}
+{"ts":1372866111739,"patch":[[{"diffs":[[0,"\n   "],[-1," height:100%;"],[0,"\n  }"]],"start1":1238,"start2":1238,"length1":21,"length2":8}]],"length":17220,"saved":false}
