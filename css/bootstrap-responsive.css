@@ -100,11 +100,20 @@
   display: none !important;
 }
 img { max-width: 100%; }
+ .iamcoder{
+     
+     background-image:url('../img/crowd.jpg'); 
+     
+    float: left;
+    background-image:url('../img/crowd.jpg'); 
+    background-repeat:no-repeat;
+    width:100%;
+ }
 @media screen and (min-width: 40.5em) {
 .iamcoder {
     
     float: left;
-    background-image:url('../img/crowd.jpg'); 
+    background-image:url('../img/bike.jpg'); 
     background-repeat:no-repeat;
     width:100%;
   
