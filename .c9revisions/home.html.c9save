@@ -45,3 +45,4 @@
 {"ts":1372862587921,"patch":[[{"diffs":[[0,";height:"],[1,"100"],[0,">\n      "]],"start1":768,"start2":768,"length1":16,"length2":19}]],"length":3420,"saved":false}
 {"ts":1372862588598,"patch":[[{"diffs":[[0,"ight:100"],[1,"%"],[0,">\n      "]],"start1":771,"start2":771,"length1":16,"length2":17}]],"length":3421,"saved":false}
 {"ts":1372862590777,"patch":[[{"diffs":[[0,"ght:100%"],[1,";"],[0,">\n      "]],"start1":772,"start2":772,"length1":16,"length2":17}]],"length":3422,"saved":false}
+{"ts":1372862719182,"patch":[[{"diffs":[[0,"d.jpg); "],[1,"background-repeat:no-repeat;"],[0,"width:10"]],"start1":750,"start2":750,"length1":16,"length2":44}]],"length":3450,"saved":false}
