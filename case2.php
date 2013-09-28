@@ -50,7 +50,7 @@
         
   //  httpRequest.onreadystatechange = alertContents;
     httpRequest.open('GET', url);
-    httpRequest.send(nullS);
+    httpRequest.send(null);
             
             }
             
