@@ -75,15 +75,12 @@ a{
 requestConfig = {
 url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()+'&jsoncallback=callbackResponse',
 dataType : 'jsonp',
-success : function (data) {
-console.log('succeded');
-} ,
-error:function(){
+xhrFields:{
+withCredentials:true
+},
 
-console.error('failed');
 }
-}
-$.ajax(requestConfig)       
+$.ajax(requestConfig).done(function (){  console.log('succed');}).fail(function(){console.log('error')});    ;   
             
             }
             
