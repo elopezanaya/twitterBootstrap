@@ -86,7 +86,7 @@ $.ajax(requestConfig) ;
             
          function callbackResponse(data){
         
-        console.log('data ::: ' : data.answer);
+        console.log('data ::: ' + data.answer);
          if (data.responseStatus == "200"){
          console.log('got it')
          }else{
