@@ -81,7 +81,7 @@ $.ajax(requestConfig)
             
             /* Loading JSON objects using JSONP */
 (function($) {
-var url = 'http://api.yoursite.com/login';
+var url = "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
 $.ajax({
 type: 'GET',
  url: url,
