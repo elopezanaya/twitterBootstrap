@@ -73,20 +73,27 @@ a{
             var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val();
         
 requestConfig = {
-url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()+'&jsoncallback=callbackResponse',
+url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()+'&callback=callbackResponse',
 dataType : 'jsonp',
 xhrFields:{
 withCredentials:true
 },
 
 }
-$.ajax(requestConfig).done(function (){  console.log('succed');}).fail(function(){console.log('error')});    ;   
+$.ajax(requestConfig) ;   
             
             }
             
          function callbackResponse(data){
+        
+        console.log(data.answer);
+         if (data.responseStatus == "200"){
+         console.log('got it')
+         }else{
+         consolo.error(':X');
          
-         console.log(data);
+         }
+         console.log(data.answer);
          }   
             
      
