@@ -94,14 +94,14 @@ dataType :'jsonp',
 xhrFields:{
 withCredentials:true
 },
-jsonpCallback:'callbackResponse'
+jsonpCallback:callbackResponse
 }
 $.ajax(requestConfig) ;   
             
             }
             
          function callbackResponse(data){
-        
+        console.log('data ++++++ '+data);
         console.log('data ::: ' + data.answer);
          if (data.responseStatus == "200"){
          console.log('got it')
