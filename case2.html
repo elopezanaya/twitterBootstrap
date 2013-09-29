@@ -75,6 +75,8 @@ a{
      httpRequest.open('GET',url, true);
      httpRequest.onreadystatechange=function(){
          
+         console.log('httpRequest.readyState : ' +httpRequest.readyState);
+         console.log('httpRequest.status : ' +httpRequest.status);
            if (httpRequest.readyState==4 && httpRequest.status==200)
     {
     console('response : ' +httpRequest.responseText);
@@ -86,7 +88,7 @@ a{
      httpRequest.send(null);
      
         
-requestConfig = {
+var requestConfig = {
 url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
 dataType :'jsonp',
 xhrFields:{
