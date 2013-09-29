@@ -127,7 +127,7 @@ function makeCorsRequest() {
         
         
     var httpRequest = new XMLHttpRequest();     
-     httpRequest.open('GET','http://example.org',true);
+     httpRequest.open('GET','http://local.yahooapis.com/LocalSearchService/V3/localSearch?appid=YahooDemo&query=pizza&zip=10504&results=2&output=json&callback=?',true);
      httpRequest.onreadystatechange=function(){
          
          console.log('httpRequest.readyState : ' +httpRequest.readyState);
