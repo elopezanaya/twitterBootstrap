@@ -201,3 +201,5 @@
 {"ts":1380482475068,"patch":[[{"diffs":[[0,"est.open"],[1,"('GET');"],[0,"   \n    "]],"start1":1457,"start2":1457,"length1":16,"length2":24}]],"length":2720,"saved":false}
 {"ts":1380482477756,"patch":[[{"diffs":[[0,"en('GET'"],[1,",url"],[0,");   \n  "]],"start1":1463,"start2":1463,"length1":16,"length2":20}]],"length":2724,"saved":false}
 {"ts":1380482480371,"patch":[[{"diffs":[[0,"GET',url"],[1,", true"],[0,");   \n  "]],"start1":1467,"start2":1467,"length1":16,"length2":22}]],"length":2730,"saved":false}
+{"ts":1380485033903,"patch":[[{"diffs":[[0,"back=?&q"],[-1,"="],[0,"';\n     "]],"start1":1414,"start2":1414,"length1":17,"length2":16}]],"length":3182,"saved":false}
+{"ts":1380485037438,"patch":[[{"diffs":[[0,"al()"],[-1,"+'&callback=?&q'"],[0,";\n  "]],"start1":1403,"start2":1403,"length1":24,"length2":8}]],"length":3166,"saved":false}
