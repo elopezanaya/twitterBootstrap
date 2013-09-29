@@ -12,6 +12,51 @@
 </head>
 <body>
 <div id="component">
+
+<style type="css">
+
+form{
+    
+    margin-left:90px;
+    
+}
+h1{
+    position:relative;
+    top:50px;
+    left:100px;
+    font-size:14px;
+    color:#e8e8e8;
+}
+div {
+    width :500px;
+    font-family:Arial;
+    font-size:12px;
+}
+input {
+    width:300px;
+}
+div {
+    background-color:#232323;
+    width:700px;
+    height:300px;
+}
+input[type=button]  {
+    background-color:#db4a39;
+    color:#e8e8e8;
+    width:300px;
+}
+table{
+    position:relative;
+    top:50px;
+    left:100px;
+    
+    
+}
+
+a{
+    width:180px;
+}
+</style>
     <script type="text/javascript">
     //<![CDATA[
     var httpRequest = new XMLHttpRequest(); 
@@ -27,38 +72,22 @@
             
             var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val();
         
-        
-        
-        
-     
 requestConfig = {
 url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
 dataType : 'jsonp',
 success : function (data) {
-console.log(data);
-} 
+console.log('succeded');
+} ,
+error:function(){
+
+console.error('failed');
+}
 }
 $.ajax(requestConfig)       
             
-        
-        
-    httpRequest.onreadystatechange = alertContents;
-    httpRequest.open("GET", url, true);
-    httpRequest.withCredentials = true;
-    httpRequest.send();
-            
             }
             
-            function alertContents(){
-               
-    if (httpRequest.readyState === 4) {
-      if (httpRequest.status === 200) {
-        alert(httpRequest.responseText);
-      } else {
-        alert('There was a problem with the request.');
-      }
-    }
-            }
+            
             
      
     //]]>
