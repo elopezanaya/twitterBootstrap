@@ -157,7 +157,8 @@ $.ajax(requestConfig) ;
             
             }
             
-         function callbackResponse(data){
+         function callbackResponse(data, status){
+        console.log('data ++++++ '+ status);
         console.log('data ++++++ '+ data);
         console.log('data ::: ' + data.responseStatus);
          if (data.responseStatus == "200"){
