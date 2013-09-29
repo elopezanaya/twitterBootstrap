@@ -1,4 +1,3 @@
-<?php ?>
 <html>
 <head>
     <link href="css/case2.css" rel="stylesheet">
@@ -80,7 +79,7 @@ withCredentials:true
 },
 jsonpCallback:'callbackResponse'
 }
-$.ajax(requestConfig) ;   
+$.ajax(requestConfig).done(function (){console.log(':P')}); ;   
             
             }
             
