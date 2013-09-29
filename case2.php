@@ -47,7 +47,7 @@
             var data;
           
           
-            var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()
+            var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val();
         
   //  httpRequest.onreadystatechange = alertContents;
     httpRequest.open("GET", url, true);
@@ -71,7 +71,7 @@
      
             
      requestConfig = {
-url : url,
+url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
 dataType : 'jsonp',
 success : function (data) {
 console.log(data);
