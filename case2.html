@@ -91,14 +91,20 @@ $.ajax(requestConfig) ;
             
             }
             
-         function callbackResponse(xhr,data, Status){
-        console.log(1);
-        console.log(xhr.readyState);
-        console.log(xhr.status);
-        console.log(2);
-        console.log(data);
-        console.log(3);
-        console.log(Status);
+         function callbackResponse(xhr){
+        
+        if (xhr.readyState==4){
+            
+            if (xhr.status==400){
+                
+                console.log('succed');
+            }else{
+                
+                console.error('fail');
+            }
+        }
+        
+        
          }   
             
      
