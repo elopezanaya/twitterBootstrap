@@ -73,7 +73,7 @@ a{
             var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val();
         
 requestConfig = {
-url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
+url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()+'&jsoncallback=callbackResponse',
 dataType : 'jsonp',
 success : function (data) {
 console.log('succeded');
@@ -87,7 +87,10 @@ $.ajax(requestConfig)
             
             }
             
-            
+         function callbackResponse(data){
+         
+         console.log(data);
+         }   
             
      
     //]]>
