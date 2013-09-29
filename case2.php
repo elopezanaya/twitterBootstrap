@@ -74,12 +74,11 @@ a{
         
 requestConfig = {
 url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
-dataType : 'jsonp',
+dataType :'jsonp',
 xhrFields:{
-withCredentials:true,
-jsonpCallback: 'callbackResponse'
+withCredentials:true
 },
-
+jsonpCallback:'callbackResponse'
 }
 $.ajax(requestConfig) ;   
             
