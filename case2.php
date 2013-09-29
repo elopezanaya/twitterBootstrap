@@ -28,7 +28,8 @@
     </script></head>
 <body>
 <div id="component">
-    <script>
+    <script type="text/javascript">
+    //<![CDATA[
     var httpRequest = new XMLHttpRequest(); 
     
     function validateFields(element){
@@ -49,7 +50,7 @@
             var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()
         
   //  httpRequest.onreadystatechange = alertContents;
-    httpRequest.open('GET', url, true);
+    httpRequest.open("GET", url, true);
     httpRequest.withCredentials = true;
     httpRequest.send();
             
@@ -65,7 +66,9 @@
       }
     }
             }
-            
+    //]]>
+    
+    
     </script>
     <form>
         <h1>User Login</h1>
