@@ -127,7 +127,7 @@ function makeCorsRequest() {
         
         
     var httpRequest = new XMLHttpRequest();     
-     httpRequest.open('GET',url, true);
+     httpRequest.open('GET',"http://example.org", true);
      httpRequest.onreadystatechange=function(){
          
          console.log('httpRequest.readyState : ' +httpRequest.readyState);
