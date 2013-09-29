@@ -79,7 +79,7 @@ var requestConfig = {
     timeout:2000,
     crossDomain:true,
 url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
-dataType :'html',
+dataType :'jsonp',
 jsonp:false,
 xhrFields:{
 withCredentials:true
@@ -91,8 +91,10 @@ $.ajax(requestConfig) ;
             
             }
             
-         function callbackResponse(data, Status){
-        console.log('callbackResponse');
+         function callbackResponse(xhr,data, Status){
+        console.log(xhr);
+        console.log(data);
+        console.log(Status);
          }   
             
      
