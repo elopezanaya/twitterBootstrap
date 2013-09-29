@@ -93,6 +93,8 @@ $.ajax(requestConfig) ;
             
          function callbackResponse(xhr){
         
+        console.log('xhr.readyState '+xhr.readyState);
+        console.log('xhr.status '+xhr.status);
         if (xhr.readyState==4){
             
             if (xhr.status==400){
