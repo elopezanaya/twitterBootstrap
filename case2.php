@@ -1,7 +1,7 @@
 <?php
     header('Content-type: text/html');
-    header('Access-Control-Allow-Origin: *');
-?>
+    header('Access-Control-Allow-Origin:*');
+    ?>
 <html>
 <head>
     
@@ -49,7 +49,8 @@
             var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()
         
   //  httpRequest.onreadystatechange = alertContents;
-    httpRequest.open('GET', url);
+    httpRequest.open('GET', url, true);
+    httpRequest.withCredentials = true;
     httpRequest.send();
             
             }
