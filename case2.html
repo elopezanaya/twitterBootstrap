@@ -67,8 +67,8 @@ a{
             var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val();
         
         
-        $.getJSON(url+'&callback=?', function(){
-    console.log("Success parsing JSON");  // Now i'm here !!
+        $.getJSON(url+'&callback=?', function(Status){
+    console.log("Success parsing JSON : " +Status);  // Now i'm here !!
     
 });
         
@@ -91,16 +91,7 @@ $.ajax(requestConfig) ;
             }
             
          function callbackResponse(data, status){
-        console.log('data ++++++ '+ status);
-        console.log('data ++++++ '+ data);
-        console.log('data ::: ' + data.responseStatus);
-         if (data.responseStatus == "200"){
-         console.log('got it')
-         }else{
-         console.error(':X');
-         
-         }
-         console.log(data.answer);
+        console.log('callbackResponse');
          }   
             
      
