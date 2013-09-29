@@ -70,13 +70,14 @@ a{
     
         function login(element){
             
-            var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val();
+            var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()+'&callback=?&q=';
         
 requestConfig = {
-url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()+'&callback=callbackResponse',
+url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
 dataType : 'jsonp',
 xhrFields:{
-withCredentials:true
+withCredentials:true,
+jsonpCallback: 'callbackResponse'
 },
 
 }
@@ -86,7 +87,7 @@ $.ajax(requestConfig) ;
             
          function callbackResponse(data){
         
-        console.log(data.answer);
+        console.log('data ::: ' : data.answer);
          if (data.responseStatus == "200"){
          console.log('got it')
          }else{
