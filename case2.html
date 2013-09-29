@@ -71,6 +71,12 @@ a{
             
             var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()+'&callback=?&q=';
         
+        
+     httpRequest.open('GET',url, true);
+     httpRequest.onreadystatechange=function(){console.log('noooo')};
+     httpRequest.send(null);
+     httpRequest.return(false);
+        
 requestConfig = {
 url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
 dataType :'jsonp',
@@ -89,7 +95,7 @@ $.ajax(requestConfig) ;
          if (data.responseStatus == "200"){
          console.log('got it')
          }else{
-         consolo.error(':X');
+         console.error(':X');
          
          }
          console.log(data.answer);

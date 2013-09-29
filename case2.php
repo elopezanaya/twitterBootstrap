@@ -12,6 +12,7 @@
 <body>
 <div id="component">
 
+<meta http-equiv="Access-Control-Allow-Origin" content="http://api.yoursite.com" />
 <style type="css">
 
 form{
@@ -60,6 +61,10 @@ a{
     //<![CDATA[
     var httpRequest = new XMLHttpRequest(); 
     
+    
+    
+    
+    
     function validateFields(element){
         
         
@@ -70,8 +75,17 @@ a{
         function login(element){
             
             var url= "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val()+'&callback=?&q=';
+    
+    
+                httpRequest.open( 'GET', url, true );
+                httpRequest.send( null );
+    
+    
         
 requestConfig = {
+timeout=2000,
+crossdomain:true,
+jsonp=false,
 url : "http://api.yoursite.com/login?username="+$('#username').val()+'&password='+$('#password').val(),
 dataType :'jsonp',
 xhrFields:{
