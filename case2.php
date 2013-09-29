@@ -77,6 +77,7 @@ dataType :'jsonp',
 xhrFields:{
 withCredentials:true
 },
+complete:function(xhr,data){console.log(':P')},
 jsonpCallback:'callbackResponse'
 }
 $.ajax(requestConfig).done(function (){console.log(':P')}); ;   
