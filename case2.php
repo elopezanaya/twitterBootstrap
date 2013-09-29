@@ -1,6 +1,6 @@
 <?php
     header('Content-type: text/html');
-    header('Access-Control-Allow-Origin:*');
+    header('Access-Control-Allow-Origin:http://api.yoursite.com');
     ?>
 <html>
 <head>
@@ -66,6 +66,30 @@
       }
     }
             }
+            
+     
+     
+            
+     requestConfig = {
+url : url,
+dataType : 'jsonp',
+success : function (data) {
+console.log(data);
+} 
+}
+$.ajax(requestConfig)       
+            
+            /* Loading JSON objects using JSONP */
+(function($) {
+var url = 'http://api.yoursite.com/login';
+$.ajax({
+type: 'GET',
+ url: url,
+ async: false,
+contentType: "application/json",
+ dataType: 'jsonp'
+ });
+})(jQuery);
     //]]>
     
     
