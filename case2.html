@@ -75,9 +75,9 @@ a{
      httpRequest.open('GET',url, true);
      httpRequest.onreadystatechange=function(){
          
-           if (xmlhttp.readyState==4 && xmlhttp.status==200)
+           if (httpRequest.readyState==4 && httpRequest.status==200)
     {
-    console('response : ' +xmlhttp.responseText);
+    console('response : ' +httpRequest.responseText);
     }
          
          
