@@ -10,6 +10,9 @@
     
     </head>
     <body>
+    <!-- copy only  the div id = component, require jquery 10 and bootstrap  -->
+    
+
     <div id="component">
     
     <style type="css">
@@ -62,10 +65,22 @@
         
         function validateFields(element){
             
+            var validFields = true;
+            
              jQuery(element).closest('table').find('input[type=text]').each(function (){
-                 
-                console.debug('text :' + $(this).text());
+                if ($.trim($(this).val()).length>0 && (validFields!=false) ){
+                    
+                    validFields=true;
+                }else{
+                    validFields=false;
+                    
+                }
+                
+                
+            
              });
+             console.log(validFields)
+             return validFields;
         }
     
     
@@ -91,7 +106,10 @@
     
     }    
             function login(element){
-            validateFields(element);
+            if (validateFields(element)){
+                
+                performCall();
+            }
                 
                 
                 }
