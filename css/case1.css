@@ -1,0 +1,43 @@
+form{
+    
+    margin-left:90px;
+    
+}
+h1{
+    position:relative;
+    top:10px;
+    left:60px;
+    font-size:14px;
+    color:#1e277d;
+}
+div {
+    width :500px;
+    font-family:Arial;
+    font-size:12px;
+    position:relative;
+    left:70px;
+}
+input {
+    width:300px;
+}
+div {
+    background-color:#3ec7c2;
+    width:700px;
+    height:300px;
+}
+input[type=button]  {
+    background-color:#db4a39;
+    color:#e8e8e8;
+    width:300px;
+}
+table{
+    position:relative;
+    top:50px;
+    left:100px;
+    
+    
+}
+
+a{
+    width:180px;
+}

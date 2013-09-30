@@ -1,0 +1,2 @@
+{"ts":1380500465024,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1380500465746,"patch":[[{"diffs":[[1,"{\"customers\":\n   {\"customer\":[\n       {\"name\":\"Ms. Mary Lynn\",\n       \"age\":\"33\",\n       \"country\":\"USA\",\n       \"tel\":[\"408\",\"444-1234\"]},\n       {\"name\":\"Mr. John Smith\",\n       \"age\":\"22\",\n       \"country\":\"USA\",\n       \"tel\":[\"510\",\"555-4444\"]}\n       ]\n   }\n}"]],"start1":0,"start2":0,"length1":0,"length2":264}]],"length":264,"saved":false}

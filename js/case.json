@@ -1,0 +1,13 @@
+{"customers":
+   {"customer":[
+       {"name":"Ms. Mary Lynn",
+       "age":"33",
+       "country":"USA",
+       "tel":["408","444-1234"]},
+       {"name":"Mr. John Smith",
+       "age":"22",
+       "country":"USA",
+       "tel":["510","555-4444"]}
+       ]
+   }
+}
